@@ -1,0 +1,4 @@
+pip3 install requests
+import requests
+r =requests.get('https://xkcd.com/1906/')
+r.status_code
